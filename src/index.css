@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar {
+  background-color: rgba(245, 90, 90, 1);
+  padding: 15px;
+  color: #DADADA;
+  text-align: center;
+}
