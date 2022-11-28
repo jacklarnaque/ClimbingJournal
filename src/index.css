@@ -12,8 +12,82 @@ code {
     monospace;
 }
 .navbar {
+  width: 100vw;
   background-color: rgba(245, 90, 90, 1);
   padding: 15px;
   color: #DADADA;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo--globe--navbar {
+  height: 3rem;
+  padding: 0.5rem 1.3rem 0% 0%;
+  }
+h1 {
+  font-size: 1.3rem;
+  margin-left: 0px;
+}
+.card--img {
+  width: 125px;
+  height: 168px;
+  border-radius: 8px;
+}
+.map {
+  padding: 10px;
+  font-size: 0.5rem;
+  max-height: 168px;
+}
+.map h2 {
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.description {
+  font-size: 0.9rem;
+  text-align: justify;
+}
+@media only screen and (max-width: 990px)   {
+  p {
+    font-size: 0.6rem!important;
+  }
+}
+@media only screen and (max-width: 560px)   {
+  p {
+    font-size: 0.4rem!important;
+    max-width: 168px;
+  }
+}
+.image--box{
+padding: 2%;
+display: flex;
+justify-content: left;
+align-items: center;
+gap: 10px;
+}
+.map--box {
+display: flex;
+align-items: center;
+gap: 5px;
+}
+.localisation--logo {
+  height: 15px;
+  width: auto;
+  padding: 3px;
+}
+.map--link {
+  padding-left: 2%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  color: black;
+
+}
+.Country {
+  color: #2B283A;
+  letter-spacing: 0.17em;
 }
