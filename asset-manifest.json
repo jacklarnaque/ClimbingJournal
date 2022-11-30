@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ClimbingJournal/static/css/main.aa75fb16.css",
+    "main.js": "/ClimbingJournal/static/js/main.07fadffd.js",
+    "static/js/787.888f18b2.chunk.js": "/ClimbingJournal/static/js/787.888f18b2.chunk.js",
+    "index.html": "/ClimbingJournal/index.html",
+    "main.aa75fb16.css.map": "/ClimbingJournal/static/css/main.aa75fb16.css.map",
+    "main.07fadffd.js.map": "/ClimbingJournal/static/js/main.07fadffd.js.map",
+    "787.888f18b2.chunk.js.map": "/ClimbingJournal/static/js/787.888f18b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa75fb16.css",
+    "static/js/main.07fadffd.js"
+  ]
+}
