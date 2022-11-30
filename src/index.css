@@ -38,6 +38,9 @@ h1 {
   padding: 10px;
   font-size: 0.5rem;
   max-height: 168px;
+  flex-wrap: nowrap;
+
+  height: fit-content;
 }
 .map h2 {
   font-size: 1rem;
@@ -51,8 +54,9 @@ h1 {
 .description {
   font-size: 0.9rem;
   text-align: justify;
+  height: max-content;
 }
-@media only screen and (max-width: 990px)   {
+@media only screen and (max-width: 990px) {
   p {
     font-size: 0.6rem!important;
   }
@@ -90,4 +94,7 @@ gap: 5px;
 .Country {
   color: #2B283A;
   letter-spacing: 0.17em;
+}
+.dates {
+  display: flex;
 }

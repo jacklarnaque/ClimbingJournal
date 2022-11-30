@@ -12,7 +12,9 @@ const Card = (props) => {
                         <a className='map--link' href={`https://www.google.com/maps/${props.item.mapLink}`}>View on map</a>
                     </div>
                     <h2 className='Title'>{props.item.title}</h2>
-                    <h3 className='date'>{props.item.date}</h3>
+                    <div className='dates'>
+                    <h3 className='date'>{props.item.dateIn} - {props.item.dateOut}</h3>
+                    </div>
                     <p className='description'>{props.item.description}</p>
                 </div>
             </div>
